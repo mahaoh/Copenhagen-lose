@@ -20,20 +20,20 @@ body {
           align-items: center;
   background: #fff;
   border-top: 1px solid #dcdcdc;
-  padding-top: 0.1610306rem;
-  padding-bottom: 0.1610306rem;
+  padding-top: 0.18518519rem;
+  padding-bottom: 0.18518519rem;
 }
 .footer section {
   text-align: center;
   color: #4a4a4a;
 }
 .footer section figure:first-child {
-  font-size: 0.48309179rem;
+  font-size: 0.55555556rem;
 }
 .footer section figure:last-child {
-  font-size: 0.24154589rem;
+  font-size: 0.27777778rem;
 }
 .footer .active {
   font-weight: bold;
-  color: skyblue;
+  color: pink;
 }
