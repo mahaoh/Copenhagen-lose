@@ -77,3 +77,148 @@ body {
   font-weight: bold;
   color: pink;
 }
+.dis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main {
+  margin-top: 1.33333333rem;
+  margin-right: 0rem;
+  margin-bottom: 1.33333333rem;
+  margin-left: 0rem;
+}
+.main .m-banner .opts img {
+  width: 100%;
+}
+.main section {
+  background: #fff;
+}
+.main section .m-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.32407407rem;
+}
+.main section .m-title div:first-child {
+  border-left: 12px solid #037aff;
+  padding-left: 0.27777778rem;
+}
+.main section:not(:first-child) {
+  padding-top: 0.32407407rem;
+  padding-right: 0.27777778rem;
+  padding-bottom: 0.32407407rem;
+  padding-left: 0.27777778rem;
+  margin-bottom: 0.27777778rem;
+}
+.main .content-expert .m-details .list {
+  border: 2px solid #dbdbdb;
+  border-radius: 15px;
+  padding-top: 0.27777778rem;
+  padding-right: 0.27777778rem;
+  padding-bottom: 0.27777778rem;
+  padding-left: 0.27777778rem;
+  margin-right: 0.27777778rem;
+}
+.main .content-expert .m-details .list .list-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .content-expert .m-details .list .list-top .li-left > dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .content-expert .m-details .list .list-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .content-expert .m-details .list .list-bottom img {
+  width: 2.22222222rem;
+  height: 2.22222222rem;
+}
+.main .content-study .col {
+  padding-top: 0rem;
+  padding-right: 0.09259259rem;
+  padding-bottom: 0rem;
+  padding-left: 0.09259259rem;
+}
+.main .content-study .col dt img {
+  width: 100%;
+}
+.main .content-study .col dd h4 {
+  width: 90%;
+  overflow: hidden;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 2% 0;
+}
+.main .content-study .col dd dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .content-dynamic .m-foods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.main .content-dynamic .m-foods a {
+  display: block;
+  width: 33.3%;
+  margin-bottom: 0.23148148rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+.main .content-dynamic .m-foods a img {
+  width: 80%;
+  border-radius: 10px;
+}

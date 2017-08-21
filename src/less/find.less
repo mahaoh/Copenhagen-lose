@@ -1,3 +1,69 @@
 @import url("rem.less");
 @import url("header.less");
 @import url("footer.less");
+.dis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    .margin(144,0,144,0);
+    .m-banner{
+        .opts{img{width: 100%;}}
+    }
+    section{
+        background: #fff;
+        .m-title{
+            .dis;
+            .mb(35);
+            div:first-child{
+                border-left: 12px solid #037aff;
+                .pl(30);
+            }
+        }
+    }
+    section:not(:first-child){.padding(35,30,35,30);.mb(30)}
+    .content-expert{
+        .m-details{
+            .list{
+                border:2px solid #dbdbdb;
+                border-radius:15px;
+                .padding(30,30,30,30);
+                .mr(30);
+                .list-top{.dis;.li-left>dl{.dis;}}
+                .list-bottom{.dis;img{.w(240);.h(240)}}
+            }
+        }
+    }
+    .content-study{
+        .col{
+            .padding(0,10,0,10);
+            dt{img{width: 100%;}}
+            dd{
+                h4{
+                    width: 90%;
+                    overflow: hidden;
+                    word-break: keep-all;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    margin: 2% 0;
+                }
+                dl{.dis}
+            }
+        }
+    }
+    .content-dynamic{
+        .m-foods{
+            .dis;
+            flex-wrap: wrap;
+            a{
+                display: block;
+                width: 33.3%;
+                .mb(25);
+                flex-wrap: wrap;
+                text-align: center;
+                img{width: 80%;border-radius: 10px;}
+            }
+        }
+    }
+}
