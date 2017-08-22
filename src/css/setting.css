@@ -118,3 +118,15 @@ body {
   font-weight: bold;
   color: pink;
 }
+.header {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.main {
+  margin-top: 0;
+}
+.main .opts {
+  background: #fff;
+  margin-bottom: 0.27777778rem;
+}
