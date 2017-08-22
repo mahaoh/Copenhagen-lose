@@ -6,9 +6,15 @@
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #dcdcdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 0.40740741rem;
   padding-right: 0rem;
   padding-bottom: 0.40740741rem;
@@ -26,7 +32,9 @@
   font-size: 48px;
 }
 .header figure {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .header figure:last-child {
   font-size: 15px;
