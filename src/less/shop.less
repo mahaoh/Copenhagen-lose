@@ -1,0 +1,38 @@
+@import url("rem.less");
+@import url("header.less");
+@import url("footer.less");
+.main{
+    .content-list{
+        background: #fff;
+        .mb(35);
+        .con-top{
+            img{width: 100%;}
+        }
+        .con-bottom{
+            .dis;
+            flex-wrap: wrap;
+            dl{
+                width:44%;
+                .margin(30,30,30,30);
+                dt{img{width: 100%;}}
+                dd{
+                    .lh(70);
+                    h4{.font-dpr(13px);}
+                    p{
+                        .font-dpr(12px);color: #8a8a8a;
+                        width: 90%;
+                        overflow: hidden;
+                        word-break: keep-all;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        margin: 2% 0;
+                    }
+                    p:last-child{
+                        span{color: #ff7214;}
+                        a{color: #a0a0a0;.font-dpr(10px);text-decoration: line-through;}
+                    }
+                }
+            }
+        }
+    }
+}

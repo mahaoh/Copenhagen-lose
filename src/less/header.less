@@ -1,0 +1,20 @@
+@import url("rem.less");
+.header{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .padding(44,0,44,0);
+    .font-dpr(16px);
+    text-align: center;
+    color: #484848;
+    figure{flex: 1;}
+    figure:last-child{.font-dpr(15px);i{.mr(10)}}
+    img{.w(258);.h(65);}
+}

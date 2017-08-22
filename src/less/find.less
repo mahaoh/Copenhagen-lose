@@ -1,0 +1,96 @@
+@import url("rem.less");
+@import url("header.less");
+@import url("footer.less");
+.main{
+    .m-banner{
+        .opts{img{width: 100%;}}
+    }
+    section{
+        background: #fff;
+        .m-title{
+            .dis;
+            .mb(35);
+            div:first-child{
+                border-left:8px solid #037aff; 
+                .pl(30);
+            }
+            div:last-child{
+                .font-dpr(12px);
+                i{.font-dpr(18px);font-weight: bold;color: #666;.ml(15)}
+            }
+        }
+    }
+    section:not(:first-child){.padding(35,30,35,30);.mb(30)}
+    .content-expert{
+        .m-details{
+            .list{
+                border:2px solid #dbdbdb;
+                border-radius:15px;
+                .w(890);
+                .padding(30,20,30,20);
+                .list-top{
+                    .mb(45);
+                    .dis;.li-left>dl{
+                        .dis;
+                        dt{img{.w(105);.h(105)};.mr(30)}
+                        dd{
+                            h5{.font-dpr(12px);}
+                            p{.font-dpr(10px);color: #9d9d9d;}
+                        }
+                    }
+                        .li-right{
+                            .atte-btn{
+                                .w(245);
+                                .h(97);
+                                border: 1px solid #037aff;
+                                color: #037aff;
+                                border-radius: 15px;
+                                .font-dpr(12px);
+                                outline: none;
+                                background: #fff;
+                            }
+                        }
+                    }
+                .list-bottom{.dis;img{.w(240);.h(240)}}
+            }
+        }
+    }
+    .content-study{
+        .col{
+            .w(395);
+            .padding(0,10,0,10);
+            dt{img{width: 100%;}}
+            dd{
+                h4{
+                    width: 90%;
+                    overflow: hidden;
+                    word-break: keep-all;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    margin: 2% 0;
+                    .font-dpr(11px);
+                }
+                dl{
+                    .dis;
+                    justify-content: flex-start;
+                    dt{.mr(10);img{.w(54);.h(54)}}
+                    dd{.font-dpr(10px);color: #757575;}
+                }
+            }
+        }
+    }
+    .content-dynamic{
+        .m-foods{
+            .dis;
+            flex-wrap: wrap;
+            a{
+                display: block;
+                width: 33.3%;
+                .mb(25);
+                flex-wrap: wrap;
+                text-align: center;
+                img{width: 80%;border-radius: 10px;}
+            }
+        }
+    }
+}

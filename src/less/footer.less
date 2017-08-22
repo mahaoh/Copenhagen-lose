@@ -1,0 +1,37 @@
+@import url("rem.less");
+html,body{
+    height: 100%;
+    position: relative;
+    background: #f4f4f4;
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{.margin(144,0,160,0);}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    border-top: 1px solid #dcdcdc;
+    .pt(20);
+    .pb(20);
+    section{
+        text-align: center;
+        color: #4a4a4a;
+        figure:first-child{.font-dpr(20px);}
+        figure:last-child{.font-dpr(10px);}
+    }
+    .active{
+        font-weight: bold;
+        color:pink;
+    }
+}
+
