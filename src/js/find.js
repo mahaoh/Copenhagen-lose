@@ -7,14 +7,12 @@ $(function(){
 	    loop: true
 	});
     var swiper1 = new Swiper('.m-details', {
-        slidesPerView: 1.3,
-        centeredSlides: true,
+        slidesPerView: 'auto',
         paginationClickable: true,
         spaceBetween: 30
     });
 	var swiper2 = new Swiper('.m-share', {
-        slidesPerView:2.5,
-        centeredSlides: true,
+        slidesPerView: 'auto',
         paginationClickable: true,
         spaceBetween: 30
     });
