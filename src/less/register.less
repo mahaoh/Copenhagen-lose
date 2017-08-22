@@ -1,0 +1,133 @@
+@import url("rem.less");
+body{
+    .mt(255);
+    .mb(174);
+}
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:99;
+    background:#fff;
+    .pt(50);
+    .return{
+        .w(156);
+        .font-dpr(25px);
+        text-align: center;
+        .lh(100);
+    }
+    .title{
+         .font-dpr(15px);
+         .lh(100);
+    }
+    .register{
+         .w(156);
+         .font-dpr(15px);
+         text-align:center;
+         .lh(100);
+    }
+}
+.logo{
+    display:flex;
+    margin: 0 auto;
+    width:20%;
+    .mt(155);
+    .mb(155);
+}
+.form{
+    width:100%;
+    .phone{
+        width:76%;
+        margin:0 auto;
+       .mb(30);
+       box-sizing: border-box;
+       border-radius:0.333333rem;
+        border:1px solid #cccbd0;
+        }
+        input{
+            border:none;
+            .ml(44);
+            .lh(126);
+            .font-dpr(15px);
+            color:#cccbd0;
+
+    }
+    .pwd{
+         width:76%;
+        border:1px solid #cccbd0;
+        margin:0 auto;
+         border-radius: 0.32333333rem;
+         .mb(30);
+        input{
+            border:none;
+            .lh(126);
+            .font-dpr(15px);
+            color:#cccbd0;
+            .ml(44);
+            width:50%;
+        }
+        span{
+            .font-dpr(13px);
+            .pl(94);
+            text-align:right;
+        }
+    }
+    .landing{
+        width:78%;
+        display:block;
+         margin:0 auto;
+         border-radius: 0.32333333rem;
+         background: #7cbdfd;
+         color:#fff;
+         text-align:center;
+         .font-dpr(14px);
+         .lh(134);
+         border:none;
+    }
+    p{
+        .font-dpr(14px);
+        color:#999;
+        text-align:center;
+        .pt(52);
+        .pb(52);
+    }
+    .bg_color{
+        background:none;
+        border:1px solid #999;
+        color:#999;
+    }
+}
+.bg{
+    width:100%;
+    position: fixed;
+    left:0;
+    bottom:0;
+    z-index:99;
+    img{
+        width:100%;
+    }
+}
+.qita{
+
+    margin:0 auto;
+    .mt(110);
+    ul{
+        display:flex;
+        justify-content:center;
+        li{
+            img{
+        .w(120);
+        .h(124);
+    }
+        }
+        li:nth-child(2){
+        .ml(140);
+        .mr(140);
+    }
+    }
+
+
+}

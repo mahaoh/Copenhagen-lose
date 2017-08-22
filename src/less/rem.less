@@ -1,5 +1,9 @@
 .px2rem(@name, @px) {
+<<<<<<< HEAD
+    @{name}: @px / 108* 1rem;
+=======
     @{name}: @px / 108 * 1rem;
+>>>>>>> cf65491edd6c5bf6919972045e7795286be67bd8
 }
 
 .padding(@top, @right, @bottom, @left) {
@@ -80,10 +84,16 @@
 }
 
 .b(@b) {
+<<<<<<< HEAD
+    .px2rem(bottom,@b);
+}
+.font-dpr(@font-size){
+=======
     .px2rem(bottom, @b);
 }
 
 .font-dpr(@font-size) {
+>>>>>>> cf65491edd6c5bf6919972045e7795286be67bd8
     font-size: @font-size;
     [data-dpr="2"] & {
         font-size: @font-size * 2;
@@ -91,4 +101,8 @@
     [data-dpr="3"] & {
         font-size: @font-size * 3;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cf65491edd6c5bf6919972045e7795286be67bd8
