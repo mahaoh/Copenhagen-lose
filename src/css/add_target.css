@@ -1,0 +1,65 @@
+.header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #dcdcdc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.40740741rem;
+  padding-right: 0rem;
+  padding-bottom: 0.40740741rem;
+  padding-left: 0rem;
+  font-size: 0.43518519rem;
+  text-align: center;
+  color: #484848;
+}
+.header figure {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.header figure:last-child {
+  font-size: 0.41666667rem;
+}
+.header figure:last-child i {
+  margin-right: 0.09259259rem;
+}
+.header img {
+  width: 2.38888889rem;
+  height: 0.60185185rem;
+}
+.main {
+  padding-top: 1.42592593rem;
+}
+.main .main_dl dl {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .main_dl dl dt {
+  width: 30%;
+}
+.main .main_dl dl dt img {
+  width: 70%;
+}
+.main .main_dl dl .info {
+  line-height: 0.55555556rem;
+  width: 70%;
+}
+/*# sourceMappingURL=add_target.css.map */

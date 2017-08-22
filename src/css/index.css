@@ -7,12 +7,15 @@
   background: #fff;
   border-bottom: 1px solid #dcdcdc;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   padding-top: 0.40740741rem;
@@ -25,6 +28,7 @@
 }
 .header figure {
   -webkit-box-flex: 1;
+  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
@@ -51,11 +55,14 @@ body {
   width: 100%;
   z-index: 99;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   background: #fff;
@@ -77,3 +84,109 @@ body {
   font-weight: bold;
   color: pink;
 }
+.main {
+  padding-top: 1.42592593rem;
+}
+.main .title {
+  padding-top: 0.37037037rem;
+  padding-bottom: 0.37037037rem;
+}
+.main .title h2 {
+  background: url("../images/index-imgs/images/border.png") no-repeat left center;
+  padding-left: 0.37037037rem;
+  font-size: 0.42592593rem;
+  margin-left: 0.32407407rem;
+}
+.main .main_div {
+  height: 4.39814815rem;
+  width: 9.30555556rem;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+}
+.main .main_div .main_section {
+  height: 2.5462963rem;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .main_div .main_section figure {
+  width: 25%;
+}
+.main .main_div .main_section figure img {
+  width: 100%;
+}
+.main .main_div .main_section figure .fa-ellipsis-h {
+  width: 100%;
+  height: 40%;
+  font-size: 0.92592593rem;
+  text-align: center;
+  display: inline-block;
+}
+.main .main_div .main_section figure .fa-ellipsis-h:before {
+  line-height: 2.31481481rem;
+}
+.main .main_div .main_section figure figcaption {
+  text-align: center;
+  font-size: 0.27777778rem;
+}
+.main .main_div .add_btn {
+  width: 6.16666667rem;
+  height: 0.90740741rem;
+  border: 3px solid #0073f7;
+  border-radius: 50px;
+  margin-left: 1.66666667rem;
+}
+.main .main_div .add_btn .btn {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0.90740741rem;
+  font-size: 0.2962963rem;
+  color: #68a7dd;
+}
+.main_banner .my_width {
+  width: 5.92592593rem;
+  height: 4.25925926rem;
+}
+.main_banner .my_width .swiper-slide {
+  margin-left: 0.27777778rem;
+}
+.main_banner .my_width .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  margin-top: 0.46296296rem;
+}
+.banner .banner_div {
+  margin-left: 0.32407407rem;
+}
+.banner .banner_div .banner_img {
+  width: 9.25925926rem;
+}
+.banner .banner_div .banner_img img {
+  width: 94%;
+}
+.scheme {
+  padding-bottom: 1.2962963rem;
+}
+.scheme .title {
+  padding-top: 0.37037037rem;
+  padding-bottom: 0.37037037rem;
+}
+.scheme .title h2 {
+  background: url("../images/index-imgs/images/border.png") no-repeat left center;
+  padding-left: 0.37037037rem;
+  font-size: 0.42592593rem;
+  margin-left: 0.32407407rem;
+}
+.scheme .imgs li a {
+  margin-left: 0.35185185rem;
+  margin-right: 0.32407407rem;
+  display: block;
+}
+.scheme .imgs li a img {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

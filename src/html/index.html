@@ -11,12 +11,76 @@
 		<title>首页</title>
 	</head>
 	<body>
+	<!--头部-->
 		<header class="header">
 			<figure class="h-left"></figure>
 			<figure class="h-title"><img src="../images/header-img.png"/></figure>
 			<figure class="h-right"></figure>
 		</header>
-		<main class="main"></main>
+	<!--主要内容-->
+	<main class="main">
+		<!--健康习惯标题-->
+		<section class="title">
+			<h2>健康习惯</h2>
+		</section>
+		<div class="main_div">
+			<section class="main_section">
+				<figure>
+					<img src="../images/index-imgs/images/index-img_07.png" alt="哥本哈根"/>
+					<figcaption>做运动</figcaption>
+				</figure>
+				<figure>
+					<img src="../images/index-imgs/images/index-img_09.png" alt="哥本哈根"/>
+					<figcaption>多喝水</figcaption>
+				</figure>
+				<figure>
+					<img src="../images/index-imgs/images/index-img_11.png" alt="哥本哈根"/>
+					<figcaption>不加奶茶..</figcaption>
+				</figure>
+				<figure>
+					<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+					<figcaption class="add_more">更多</figcaption>
+				</figure>
+			</section>
+			<!--添加健康习惯按钮-->
+			<section class="add_btn">
+				<p class="btn">+添加健康习惯，开始轻体的第一步</p>
+			</section>
+		</div>
+		<!--人气排行标题-->
+		<section class="title">
+			<h2>人气排行</h2>
+		</section>
+	</main>
+	<!--轮播图-->
+	<div class="swiper-container main_banner">
+		<div class="swiper-wrapper my_width">
+			<div class="swiper-slide"><img src="../images/index-imgs/images/index-img_17.png" alt="哥本哈根"></div>
+			<div class="swiper-slide"><img src="../images/index-imgs/images/index-img_18.png" alt="哥本哈根"></div>
+			<div class="swiper-slide"><img src="../images/index-imgs/images/index-img_19.png" alt="哥本哈根"></div>
+		</div>
+	</div>
+	<!--轮播图 banner-->
+	<div class="swiper-container banner">
+		<div class="swiper-wrapper banner_div">
+			<div class="swiper-slide banner_img"><img src="../images/index-imgs/images/banner1.png" alt="哥本哈根"></div>
+			<div class="swiper-slide banner_img"><img src="../images/index-imgs/images/banner2.png" alt="哥本哈根"></div>
+		</div>
+		<!-- 如果需要分页器 -->
+		<div class="swiper-pagination"></div>
+	</div>
+	<!--轻体方案-->
+	<section class="scheme">
+		<section class="title">
+			<h2>轻体方案</h2>
+		</section>
+		<ul class="imgs">
+			<li><a href="#"><img src="../images/index-imgs/images/scheme_03.png" alt="哥本哈根"></a></li>
+			<li><a href="#"><img src="../images/index-imgs/images/scheme_06.png" alt="哥本哈根"></a></li>
+			<li><a href="#"><img src="../images/index-imgs/images/scheme_09.png" alt="哥本哈根"></a></li>
+		</ul>
+	</section>
+	<!--底部-->
 		<footer class="footer">
 			<section class="index active">
 				<figure class="in-top">
@@ -53,5 +117,14 @@
 		<script src="../assets/swiper/js/swiper.jquery.min.js" ></script>
 		<script src="../js/footer.js"></script>
 		<script src="../assets/template-web.js" ></script>
+	<script>
+		var mySwiper = new Swiper ('.main_banner', {
+			slidesPerView : 1.5
+		})
+		var myBanner = new Swiper ('.banner', {
+			// 如果需要分页器
+			pagination: '.swiper-pagination'
+		})
+	</script>
 	</body>
 </html>
