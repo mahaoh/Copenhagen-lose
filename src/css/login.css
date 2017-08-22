@@ -1,0 +1,117 @@
+body {
+  margin-top: 2.36111111rem;
+  margin-bottom: 1.61111111rem;
+}
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+  padding-top: 0.46296296rem;
+}
+.header .return {
+  width: 1.44444444rem;
+  font-size: 25px;
+  text-align: center;
+  line-height: 0.92592593rem;
+}
+[data-dpr="2"] .header .return {
+  font-size: 50px;
+}
+[data-dpr="3"] .header .return {
+  font-size: 75px;
+}
+.header .title {
+  font-size: 15px;
+  line-height: 0.92592593rem;
+}
+[data-dpr="2"] .header .title {
+  font-size: 30px;
+}
+[data-dpr="3"] .header .title {
+  font-size: 45px;
+}
+.header .register {
+  width: 1.44444444rem;
+  font-size: 15px;
+  text-align: center;
+  line-height: 0.92592593rem;
+}
+[data-dpr="2"] .header .register {
+  font-size: 30px;
+}
+[data-dpr="3"] .header .register {
+  font-size: 45px;
+}
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 1.43518519rem;
+  margin-bottom: 1.43518519rem;
+}
+.phone {
+  width: 76%;
+  margin: 0 auto;
+  margin-bottom: 0.27777778rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.333333rem;
+  border: 1px solid #cccbd0;
+}
+input {
+  border: none;
+  margin-left: 0.40740741rem;
+  line-height: 1.16666667rem;
+  font-size: 15px;
+  color: #cccbd0;
+}
+[data-dpr="2"] input {
+  font-size: 30px;
+}
+[data-dpr="3"] input {
+  font-size: 45px;
+}
+.landing {
+  width: 78%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.32333333rem;
+  background: #7cbdfd;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.24074074rem;
+  border: none;
+}
+[data-dpr="2"] .landing {
+  font-size: 28px;
+}
+[data-dpr="3"] .landing {
+  font-size: 42px;
+}
+p {
+  font-size: 15px;
+  color: #999;
+  position: fixed;
+  left: 0;
+  bottom: 4%;
+  width: 100%;
+  text-align: center;
+}
+[data-dpr="2"] p {
+  font-size: 30px;
+}
+[data-dpr="3"] p {
+  font-size: 45px;
+}

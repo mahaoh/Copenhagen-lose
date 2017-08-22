@@ -1,0 +1,56 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-slide img {
+  width: 100%;
+}
+.swiper-container .logo {
+  position: relative;
+}
+.swiper-container .logo .register {
+  height: 0.74074074rem;
+  border: 1px solid #693e1e;
+  background: #0880d7;
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 16%;
+  line-height: 0.71296296rem;
+  padding-left: 0.27777778rem;
+  padding-right: 0.27777778rem;
+}
+[data-dpr="2"] .swiper-container .logo .register {
+  font-size: 30px;
+}
+[data-dpr="3"] .swiper-container .logo .register {
+  font-size: 45px;
+}
+.swiper-container .go {
+  width: 92%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 8%;
+  left: 4%;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.38888889rem;
+  background: #2591fd;
+  border: none;
+  border-radius: 0.27777778rem;
+}
+[data-dpr="2"] .swiper-container .go {
+  font-size: 30px;
+}
+[data-dpr="3"] .swiper-container .go {
+  font-size: 45px;
+}

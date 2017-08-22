@@ -1,0 +1,15 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-21 09:09:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-22 11:05:21
+*/
+
+var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+$('.register').click(function(event) {
+    /* Act on the event */
+     window.location.href="html/register.html";
+});

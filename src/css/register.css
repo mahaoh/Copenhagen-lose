@@ -1,0 +1,185 @@
+body {
+  margin-top: 2.36111111rem;
+  margin-bottom: 1.61111111rem;
+}
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+  padding-top: 0.46296296rem;
+}
+.header .return {
+  width: 1.44444444rem;
+  font-size: 25px;
+  text-align: center;
+  line-height: 0.92592593rem;
+}
+[data-dpr="2"] .header .return {
+  font-size: 50px;
+}
+[data-dpr="3"] .header .return {
+  font-size: 75px;
+}
+.header .title {
+  font-size: 15px;
+  line-height: 0.92592593rem;
+}
+[data-dpr="2"] .header .title {
+  font-size: 30px;
+}
+[data-dpr="3"] .header .title {
+  font-size: 45px;
+}
+.header .register {
+  width: 1.44444444rem;
+  font-size: 15px;
+  text-align: center;
+  line-height: 0.92592593rem;
+}
+[data-dpr="2"] .header .register {
+  font-size: 30px;
+}
+[data-dpr="3"] .header .register {
+  font-size: 45px;
+}
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 1.43518519rem;
+  margin-bottom: 1.43518519rem;
+}
+.form {
+  width: 100%;
+}
+.form .phone {
+  width: 76%;
+  margin: 0 auto;
+  margin-bottom: 0.27777778rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.333333rem;
+  border: 1px solid #cccbd0;
+}
+.form input {
+  border: none;
+  margin-left: 0.40740741rem;
+  line-height: 1.16666667rem;
+  font-size: 15px;
+  color: #cccbd0;
+}
+[data-dpr="2"] .form input {
+  font-size: 30px;
+}
+[data-dpr="3"] .form input {
+  font-size: 45px;
+}
+.form .pwd {
+  width: 76%;
+  border: 1px solid #cccbd0;
+  margin: 0 auto;
+  border-radius: 0.32333333rem;
+  margin-bottom: 0.27777778rem;
+}
+.form .pwd input {
+  border: none;
+  line-height: 1.16666667rem;
+  font-size: 15px;
+  color: #cccbd0;
+  margin-left: 0.40740741rem;
+  width: 50%;
+}
+[data-dpr="2"] .form .pwd input {
+  font-size: 30px;
+}
+[data-dpr="3"] .form .pwd input {
+  font-size: 45px;
+}
+.form .pwd span {
+  font-size: 13px;
+  padding-left: 0.87037037rem;
+  text-align: right;
+}
+[data-dpr="2"] .form .pwd span {
+  font-size: 26px;
+}
+[data-dpr="3"] .form .pwd span {
+  font-size: 39px;
+}
+.form .landing {
+  width: 78%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.32333333rem;
+  background: #7cbdfd;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.24074074rem;
+  border: none;
+}
+[data-dpr="2"] .form .landing {
+  font-size: 28px;
+}
+[data-dpr="3"] .form .landing {
+  font-size: 42px;
+}
+.form p {
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  padding-top: 0.48148148rem;
+  padding-bottom: 0.48148148rem;
+}
+[data-dpr="2"] .form p {
+  font-size: 28px;
+}
+[data-dpr="3"] .form p {
+  font-size: 42px;
+}
+.form .bg_color {
+  background: none;
+  border: 1px solid #999;
+  color: #999;
+}
+.bg {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.bg img {
+  width: 100%;
+}
+.qita {
+  margin: 0 auto;
+  margin-top: 1.01851852rem;
+}
+.qita ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.qita ul li img {
+  width: 1.11111111rem;
+  height: 1.14814815rem;
+}
+.qita ul li:nth-child(2) {
+  margin-left: 1.2962963rem;
+  margin-right: 1.2962963rem;
+}
