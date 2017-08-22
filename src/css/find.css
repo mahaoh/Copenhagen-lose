@@ -16,8 +16,10 @@
       -ms-flex-align: center;
           align-items: center;
   padding-top: 0.40740741rem;
+  padding-top: 0.35426731rem;
   padding-right: 0rem;
   padding-bottom: 0.40740741rem;
+  padding-bottom: 0.35426731rem;
   padding-left: 0rem;
   font-size: 16px;
   text-align: center;
@@ -45,10 +47,13 @@
 }
 .header figure:last-child i {
   margin-right: 0.09259259rem;
+  margin-right: 0.0805153rem;
 }
 .header img {
   width: 2.38888889rem;
+  width: 2.07729469rem;
   height: 0.60185185rem;
+  height: 0.52334944rem;
 }
 html,
 body {
@@ -69,8 +74,10 @@ body {
 }
 .main {
   margin-top: 1.33333333rem;
+  margin-top: 1.15942029rem;
   margin-right: 0rem;
   margin-bottom: 1.48148148rem;
+  margin-bottom: 1.28824477rem;
   margin-left: 0rem;
 }
 .footer {
@@ -90,7 +97,9 @@ body {
   background: #fff;
   border-top: 1px solid #dcdcdc;
   padding-top: 0.18518519rem;
+  padding-top: 0.1610306rem;
   padding-bottom: 0.18518519rem;
+  padding-bottom: 0.1610306rem;
 }
 .footer section {
   text-align: center;
@@ -135,10 +144,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 0.32407407rem;
+  margin-bottom: 0.28180354rem;
 }
 .main section .m-title div:first-child {
   border-left: 8px solid #037aff;
   padding-left: 0.27777778rem;
+  padding-left: 0.24154589rem;
 }
 .main section .m-title div:last-child {
   font-size: 12px;
@@ -154,6 +165,7 @@ body {
   font-weight: bold;
   color: #666;
   margin-left: 0.13888889rem;
+  margin-left: 0.12077295rem;
 }
 [data-dpr="2"] .main section .m-title div:last-child i {
   font-size: 36px;
@@ -163,22 +175,33 @@ body {
 }
 .main section:not(:first-child) {
   padding-top: 0.32407407rem;
+  padding-top: 0.28180354rem;
   padding-right: 0.27777778rem;
+  padding-right: 0.24154589rem;
   padding-bottom: 0.32407407rem;
+  padding-bottom: 0.28180354rem;
   padding-left: 0.27777778rem;
+  padding-left: 0.24154589rem;
   margin-bottom: 0.27777778rem;
+  margin-bottom: 0.24154589rem;
 }
 .main .content-expert .m-details .list {
   border: 2px solid #dbdbdb;
   border-radius: 15px;
   width: 8.24074074rem;
+  width: 7.16586151rem;
   padding-top: 0.27777778rem;
+  padding-top: 0.24154589rem;
   padding-right: 0.18518519rem;
+  padding-right: 0.1610306rem;
   padding-bottom: 0.27777778rem;
+  padding-bottom: 0.24154589rem;
   padding-left: 0.18518519rem;
+  padding-left: 0.1610306rem;
 }
 .main .content-expert .m-details .list .list-top {
   margin-bottom: 0.41666667rem;
+  margin-bottom: 0.36231884rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,10 +225,13 @@ body {
 }
 .main .content-expert .m-details .list .list-top .li-left > dl dt {
   margin-right: 0.27777778rem;
+  margin-right: 0.24154589rem;
 }
 .main .content-expert .m-details .list .list-top .li-left > dl dt img {
   width: 0.97222222rem;
+  width: 0.84541063rem;
   height: 0.97222222rem;
+  height: 0.84541063rem;
 }
 .main .content-expert .m-details .list .list-top .li-left > dl dd h5 {
   font-size: 12px;
@@ -228,7 +254,9 @@ body {
 }
 .main .content-expert .m-details .list .list-top .li-right .atte-btn {
   width: 2.26851852rem;
+  width: 1.9726248rem;
   height: 0.89814815rem;
+  height: 0.78099839rem;
   border: 1px solid #037aff;
   color: #037aff;
   border-radius: 15px;
@@ -255,14 +283,19 @@ body {
 }
 .main .content-expert .m-details .list .list-bottom img {
   width: 2.22222222rem;
+  width: 1.93236715rem;
   height: 2.22222222rem;
+  height: 1.93236715rem;
 }
 .main .content-study .col {
   width: 3.65740741rem;
+  width: 3.18035427rem;
   padding-top: 0rem;
   padding-right: 0.09259259rem;
+  padding-right: 0.0805153rem;
   padding-bottom: 0rem;
   padding-left: 0.09259259rem;
+  padding-left: 0.0805153rem;
 }
 .main .content-study .col dt img {
   width: 100%;
@@ -298,10 +331,13 @@ body {
 }
 .main .content-study .col dd dl dt {
   margin-right: 0.09259259rem;
+  margin-right: 0.0805153rem;
 }
 .main .content-study .col dd dl dt img {
   width: 0.5rem;
+  width: 0.43478261rem;
   height: 0.5rem;
+  height: 0.43478261rem;
 }
 .main .content-study .col dd dl dd {
   font-size: 10px;
@@ -330,6 +366,7 @@ body {
   display: block;
   width: 33.3%;
   margin-bottom: 0.23148148rem;
+  margin-bottom: 0.20128824rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;

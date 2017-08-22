@@ -37,9 +37,27 @@ body{
     .mt(155);
     .mb(155);
 }
-.form{
-    width:100%;
-    .phone{
+.yan{
+         width:76%;
+        border:1px solid #cccbd0;
+        margin:0 auto;
+         border-radius: 0.32333333rem;
+         .mb(30);
+        input{
+            border:none;
+            .lh(126);
+            .font-dpr(15px);
+            color:#cccbd0;
+            .ml(44);
+            width:44%;
+        }
+        span{
+            .font-dpr(13px);
+            .pl(94);
+            text-align:right;
+        }
+    }
+    .pwd{
         width:76%;
         margin:0 auto;
        .mb(30);
@@ -55,26 +73,6 @@ body{
             color:#cccbd0;
 
     }
-    .pwd{
-         width:76%;
-        border:1px solid #cccbd0;
-        margin:0 auto;
-         border-radius: 0.32333333rem;
-         .mb(30);
-        input{
-            border:none;
-            .lh(126);
-            .font-dpr(15px);
-            color:#cccbd0;
-            .ml(44);
-            width:50%;
-        }
-        span{
-            .font-dpr(13px);
-            .pl(94);
-            text-align:right;
-        }
-    }
     .landing{
         width:78%;
         display:block;
@@ -87,75 +85,19 @@ body{
          .lh(134);
          border:none;
     }
-    p{
-        .font-dpr(14px);
-        color:#999;
-        text-align:center;
-        .pt(52);
-        .pb(52);
-    }
-    .bg_color{
-        background:none;
-        border:1px solid #999;
-        color:#999;
-    }
-}
-.bg{
-    width:100%;
-    position: fixed;
-    left:0;
-    bottom:0;
-    z-index:99;
-    img{
-        width:100%;
-    }
-}
-.qita{
-
-    margin:0 auto;
-    .mt(110);
-    ul{
-        display:flex;
-        justify-content:center;
-        li{
-            img{
-        .w(120);
-        .h(124);
-    }
-        }
-        li:nth-child(2){
-        .ml(140);
-        .mr(140);
-    }
-    }
-
-
-}
- .tishi{
-        background:#000;
-        width:50%;
-        color:#fff;
-         .font-dpr(15px);
-         .lh(100);
-        border-radius:10px;
-        margin:0 auto;
-        display:none;
-    }
-     .xinxi{
+    .xinxi{
         width:100%;
         background:#ccc;
         color:#666;
         .font-dpr(18px);
-        margin-right:35%;
         position:fixed;
-        left:0%;
+        left:0;
         top:0;
         z-index:9;
         text-align:center;
+        opacity:0;
         .h(200);
         .pt(50);
-
-        opacity:0;
         animation-duration:10s;
         animation-timing-function:ease;
         animation-delay:5s;
@@ -166,7 +108,7 @@ body{
             margin:0 auto;
         }
     }
-    @keyframes donghua{
+      @keyframes donghua{
         0%{
             .h(0);
             opacity: 0;
