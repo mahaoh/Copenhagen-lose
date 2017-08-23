@@ -15,7 +15,6 @@ body {
 }
 .swiper-container .logo .register {
   height: 0.74074074rem;
-  height: 0.64412238rem;
   border: 1px solid #693e1e;
   background: #0880d7;
   position: absolute;
@@ -25,11 +24,8 @@ body {
   color: #fff;
   border-radius: 16%;
   line-height: 0.71296296rem;
-  line-height: 0.61996779rem;
   padding-left: 0.27777778rem;
-  padding-left: 0.24154589rem;
   padding-right: 0.27777778rem;
-  padding-right: 0.24154589rem;
 }
 [data-dpr="2"] .swiper-container .logo .register {
   font-size: 30px;
@@ -48,7 +44,6 @@ body {
   color: #fff;
   text-align: center;
   line-height: 1.38888889rem;
-  line-height: 1.20772947rem;
   background: #2591fd;
   border: none;
   border-radius: 0.27777778rem;

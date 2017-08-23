@@ -57,15 +57,18 @@
   height: 0.60185185rem;
 }
 .main {
+  background: #f8f8f8;
   padding-top: 1.42592593rem;
 }
 .main .main_dl dl {
-  width: 100%;
+  width: 90%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 1.01851852rem;
+  margin: auto;
+  background: white;
+  margin-top: 0.37037037rem;
 }
 .main .main_dl dl dt {
   width: 30%;
@@ -74,9 +77,8 @@
   width: 70%;
 }
 .main .main_dl dl .info {
-  line-height: 0.55555556rem;
   width: 70%;
-  padding-top: 0.55555556rem;
+  padding-top: 0.27777778rem;
 }
 .main .main_dl dl .info p {
   font-size: 15px;

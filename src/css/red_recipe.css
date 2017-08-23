@@ -417,3 +417,54 @@ body {
 [data-dpr="3"] .footer .setting .set-bottom {
   font-size: 51;
 }
+html,
+body {
+  height: 175%;
+}
+body {
+  background-image: url("../images/recipe-imgs/image/bg_red.png");
+}
+.header {
+  background-color: rgba(254, 112, 92, 0.3);
+}
+.recipe p {
+  color: white;
+}
+.recipe .three {
+  color: white;
+}
+.plan .state {
+  width: 80%;
+  line-height: 0.55555556rem;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 0.37037037rem;
+  text-align: center;
+}
+.plan .state p {
+  color: white;
+}
+[data-dpr="2"] .plan .state {
+  font-size: 24px;
+}
+[data-dpr="3"] .plan .state {
+  font-size: 36px;
+}
+.main .main_demo3 figure .title {
+  color: #af1f07;
+}
+.main .main_demo2 .title {
+  color: #af1f07;
+}
+.main .main_demo2 .main_ul li:last-child {
+  color: #e65051;
+}
+.main .main_demo4 {
+  color: white;
+}
+.main .main_demo4 .atr1 li {
+  background: url(../images/red-recipt/image/icon.png) no-repeat left center;
+}
+.footer .active {
+  background: #cb3220;
+}

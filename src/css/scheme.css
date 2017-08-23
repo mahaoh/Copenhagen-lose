@@ -19,10 +19,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding-top: 0.40740741rem;
-  padding-top: 0.35426731rem;
   padding-right: 0rem;
   padding-bottom: 0.40740741rem;
-  padding-bottom: 0.35426731rem;
   padding-left: 0rem;
   font-size: 16px;
   text-align: center;
@@ -53,13 +51,10 @@
 }
 .header figure:last-child i {
   margin-right: 0.09259259rem;
-  margin-right: 0.0805153rem;
 }
 .header img {
   width: 2.38888889rem;
-  width: 2.07729469rem;
   height: 0.60185185rem;
-  height: 0.52334944rem;
 }
 html,
 body {
@@ -83,10 +78,8 @@ body {
 }
 .main {
   margin-top: 1.33333333rem;
-  margin-top: 1.15942029rem;
   margin-right: 0rem;
   margin-bottom: 1.48148148rem;
-  margin-bottom: 1.28824477rem;
   margin-left: 0rem;
 }
 .footer {
@@ -109,9 +102,7 @@ body {
   background: #fff;
   border-top: 1px solid #dcdcdc;
   padding-top: 0.18518519rem;
-  padding-top: 0.1610306rem;
   padding-bottom: 0.18518519rem;
-  padding-bottom: 0.1610306rem;
 }
 .footer section {
   text-align: center;
@@ -160,13 +151,10 @@ body {
   font-size: 45px;
 }
 .main .main_div {
-  height: 4.39814815rem;
-  width: 9.30555556rem;
   background-color: #f9f9f9;
-  margin: 0 auto;
+  margin: auto;
 }
 .main .main_div .main_section {
-  height: 2.5462963rem;
   border-radius: 6px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -179,21 +167,19 @@ body {
 .main .main_div .main_section figure img {
   width: 100%;
 }
-.main .main_div .main_section figure .fa-ellipsis-h {
+.main .main_div .main_section figure .icon {
   width: 100%;
-  height: 40%;
-  font-size: 33px;
+  height: 45%;
+  font-size: 50px;
   text-align: center;
-  display: inline-block;
+  padding-top: 35%;
+  display: block;
 }
-[data-dpr="2"] .main .main_div .main_section figure .fa-ellipsis-h {
-  font-size: 66px;
+[data-dpr="2"] .main .main_div .main_section figure .icon {
+  font-size: 100px;
 }
-[data-dpr="3"] .main .main_div .main_section figure .fa-ellipsis-h {
-  font-size: 99px;
-}
-.main .main_div .main_section figure .fa-ellipsis-h:before {
-  line-height: 2.31481481rem;
+[data-dpr="3"] .main .main_div .main_section figure .icon {
+  font-size: 150px;
 }
 .main .main_div .main_section figure figcaption {
   text-align: center;
@@ -206,16 +192,17 @@ body {
   font-size: 30px;
 }
 .main .main_div .add_btn {
-  width: 6.16666667rem;
-  height: 0.90740741rem;
+  margin-top: 0.55555556rem;
   border: 3px solid #0073f7;
   border-radius: 50px;
-  margin-left: 1.66666667rem;
+  margin-left: 1.85185185rem;
+  margin-right: 1.85185185rem;
 }
 .main .main_div .add_btn .btn {
+  padding-top: 0.37037037rem;
+  padding-bottom: 0.37037037rem;
   text-align: center;
   vertical-align: middle;
-  line-height: 0.90740741rem;
   font-size: 11px;
   color: #68a7dd;
 }
@@ -226,15 +213,13 @@ body {
   font-size: 33px;
 }
 .main_banner .my_width {
-  width: 5.92592593rem;
-  height: 4.25925926rem;
+  width: 60%;
 }
 .main_banner .my_width .swiper-slide {
   margin-left: 0.27777778rem;
 }
 .main_banner .my_width .swiper-slide img {
   width: 100%;
-  height: 100%;
 }
 .banner {
   margin-top: 0.46296296rem;
@@ -278,4 +263,4 @@ body {
 .scheme .imgs li a img {
   width: 100%;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=scheme.css.map */
