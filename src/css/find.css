@@ -24,6 +24,8 @@
   font-size: 16px;
   text-align: center;
   color: #484848;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 [data-dpr="2"] .header {
   font-size: 32px;
@@ -349,7 +351,7 @@ body {
 [data-dpr="3"] .main .content-study .col dd dl dd {
   font-size: 30px;
 }
-.main .content-dynamic .m-foods {
+.main .content-dynamic .m-foods .list-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,7 +364,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.main .content-dynamic .m-foods a {
+.main .content-dynamic .m-foods .list-group a {
   display: block;
   width: 33.3%;
   margin-bottom: 0.23148148rem;
@@ -370,8 +372,9 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
-}
-.main .content-dynamic .m-foods a img {
-  width: 80%;
   border-radius: 10px;
+  overflow: hidden;
+}
+.main .content-dynamic .m-foods .list-group a img {
+  width: 80%;
 }

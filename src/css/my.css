@@ -6,15 +6,9 @@
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #dcdcdc;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 0.40740741rem;
   padding-top: 0.35426731rem;
   padding-right: 0rem;
@@ -24,6 +18,8 @@
   font-size: 16px;
   text-align: center;
   color: #484848;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 [data-dpr="2"] .header {
   font-size: 32px;
@@ -32,9 +28,7 @@
   font-size: 48px;
 }
 .header figure {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 .header figure:last-child {
   font-size: 15px;
@@ -62,15 +56,9 @@ body {
   background: #f4f4f4;
 }
 .dis {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .main {
   margin-top: 1.33333333rem;
@@ -86,14 +74,9 @@ body {
   left: 0;
   width: 100%;
   z-index: 99;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   background: #fff;
   border-top: 1px solid #dcdcdc;
   padding-top: 0.18518519rem;
