@@ -1,22 +1,161 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
-		<script src="../assets/flexible/flexible.debug.js" ></script>
-		<script src="../assets/flexible/flexible_css.debug.js" ></script>
-		<link rel="stylesheet" type="text/css" href="../assets/font-4.7/css/font-awesome.min.css"/>
-		<link rel="stylesheet" type="text/css" href="../assets/swiper/css/swiper.min.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/my.css"/>
+		<script src="../assets/flexible/flexible.debug.js"></script>
+		<script src="../assets/flexible/flexible_css.debug.js"></script>
+		<link rel="stylesheet" type="text/css" href="../assets/font-4.7/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="../assets/swiper/css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/my.css" />
 		<title>我的</title>
 	</head>
+
 	<body>
 		<header class="header">
 			<figure class="h-left"><i></i></figure>
 			<figure class="h-title">我的目标</figure>
 			<figure class="h-right">设置目标</figure>
 		</header>
-		<main class="main"></main>
+		<main class="main">
+			<section class="content-target-info">
+				<figure class="info-top">
+					<ul>
+						<li>初始体重</li>
+						<li>81.0</li>
+					</ul>
+					<ul>
+						<li>已减重/KG</li>
+						<li>0.0</li>
+						<li>已完成0%</li>
+						<canvas id="canvas" width="300" height="300"></canvas>
+					</ul>
+					<ul>
+						<li>目标体重</li>
+						<li>65.0</li>
+					</ul>
+				</figure>
+				<figure class="info-bottom">
+					<ul>
+						<li>执行方案</li>
+						<li><span>0</span>次</li>
+					</ul>
+					<ul>
+						<li>执行挑战</li>
+						<li><span>0</span>次</li>
+					</ul>
+					<ul>
+						<li>获得成就</li>
+						<li><span>0</span>个</li>
+					</ul>
+				</figure>
+			</section>
+			<section class="content-opts">
+				<figure class="opts-left">
+					<dl><dt><img src="../images/my-imgs/images/my_03.png"/></dt>
+						<dd>步数记录</dd>
+					</dl>
+				</figure>
+				<figure class="opts-right">
+					<p><span>--</span>步数</p>
+					<i class="fa fa-angle-right"></i>
+				</figure>
+			</section>
+			<section class="content-opts">
+				<figure class="opts-left">
+					<dl><dt><img src="../images/my-imgs/images/my_06.png"/></dt>
+						<dd>热量记录(饮食$运动)</dd>
+					</dl>
+				</figure>
+				<figure class="opts-right">
+					<p>还可以吃<span>1668</span>千卡</p>
+					<i class="fa fa-angle-right"></i>
+				</figure>
+			</section>
+			<section class="content-opts">
+				<figure class="opts-left">
+					<dl><dt><img src="../images/my-imgs/images/my_08.png"/></dt>
+						<dd>体重记录</dd>
+					</dl>
+				</figure>
+				<figure class="opts-right">
+					<p><span>81.0</span>公斤</p>
+					<i class="fa fa-angle-right"></i>
+				</figure>
+			</section>
+			<section class="content-opts">
+				<figure class="opts-left">
+					<dl><dt><img src="../images/my-imgs/images/my_10.png"/></dt>
+						<dd>
+							<h4>智能体重秤<a href="javascript:">HOT</a></h4>
+							<p>随时掌握身体13项数据</p>
+						</dd>
+					</dl>
+				</figure>
+				<figure class="opts-right">
+					<p>马上体验</p>
+					<i class="fa fa-angle-right"></i>
+				</figure>
+			</section>
+			<section class="content-sign">
+				<figure class="sign-top">
+					<div class="sign-left">
+						<dl><dt><img src="../images/my-imgs/images/my_12.png"/></dt>
+							<dd>每日签到</dd>
+						</dl>
+					</div>
+					<div class="sign-right">
+						<p>立即签到</p>
+						<i class="fa fa-angle-right"></i>
+					</div>
+				</figure>
+				<figure class="sign-bottom">
+					<dl>
+						<dd>日</dd>
+						<dt>
+							<i class="fa fa-check-circle"></i>
+						</dt>
+					</dl>
+					<dl>
+						<dd>一</dd>
+						<dt>
+							<i class="fa fa-check-circle"></i>
+						</dt>
+					</dl>
+					<dl>
+						<dd>二</dd>
+						<dt>
+							<i class="fa fa-check-circle"></i>
+						</dt>
+					</dl>
+					<dl>
+						<dd>三</dd>
+						<dt>
+							<i class="fa fa-check-circle"></i>
+						</dt>
+					</dl>
+					<dl>
+						<dd>四</dd>
+						<dt>
+							<i class="fa fa-check-circle"></i>
+						</dt>
+					</dl>
+					<dl>
+						<dd>五</dd>
+						<dt>
+							<i class="fa fa-check-circle"></i>
+						</dt>
+					</dl>
+					<dl>
+						<dd>六</dd>
+						<dt>
+							<i class="fa fa-check-circle"></i>
+						</dt>
+					</dl>
+				</figure>
+			</section>
+		</main>
 		<footer class="footer">
 			<section class="index">
 				<figure class="in-top">
@@ -49,9 +188,10 @@
 				<figure class="set-bottom">设置</figure>
 			</section>
 		</footer>
-		<script src="../assets/jquery-3.2.1.min.js" ></script>
-		<script src="../assets/swiper/js/swiper.jquery.min.js" ></script>
+		<script src="../assets/jquery-3.2.1.min.js"></script>
+		<script src="../js/my.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/footer.js"></script>
-		<script src="../assets/template-web.js" ></script>
+		<script src="../assets/template-web.js"></script>
 	</body>
+
 </html>

@@ -1,4 +1,15 @@
 @import url("rem.less");
+html,body{
+    height: 100%;
+    position: relative;
+    background: #f4f4f4;
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{margin:0 ;.mt(144);.mb(160);}
 .header{
     position: fixed;
     z-index: 99;
@@ -10,12 +21,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .padding(44,0,44,0);
-    .font-dpr(16px);
+    .pt(35);
+    .pb(35);
+    .font-dpr(22px);
     text-align: center;
     color: #484848;
     transition: all .5s ease;
-    figure{flex: 1;}
-    figure:last-child{.font-dpr(15px);i{.mr(10)}}
+    figure:not(:nth-child(2)){flex:2;.font-dpr(18px);}
+    figure:nth-child(2){flex:6;}
+    figure:last-child{i{.mr(15)}}
     img{.w(258);.h(65);}
 }
