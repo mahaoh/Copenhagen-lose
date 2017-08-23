@@ -15,4 +15,7 @@ $(function(){
 			})
 		}
 	});
+	$('.h-right').click(function(){
+		window.location.href = "set.html";
+	})
 })
