@@ -9,7 +9,7 @@ $(function(){
     var swiper1 = new Swiper('.m-details', {
         slidesPerView: 'auto',
         paginationClickable: true,
-        spaceBetween: 30
+        spaceBetween:25
     });
 	var swiper2 = new Swiper('.m-share', {
         slidesPerView: 'auto',

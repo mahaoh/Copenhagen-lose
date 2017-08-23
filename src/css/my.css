@@ -16,6 +16,7 @@
   font-size: 16px;
   text-align: center;
   color: #484848;
+  transition: all .5s ease;
 }
 [data-dpr="2"] .header {
   font-size: 32px;

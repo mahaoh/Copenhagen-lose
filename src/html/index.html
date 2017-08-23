@@ -119,7 +119,9 @@
 		<script src="../assets/template-web.js" ></script>
 	<script>
 		var mySwiper = new Swiper ('.main_banner', {
-			slidesPerView : 1.5
+			slidesPerView: 'auto',
+			paginationClickable: true,
+			spaceBetween:25
 		})
 		var myBanner = new Swiper ('.banner', {
 			// 如果需要分页器
