@@ -7,9 +7,7 @@ p {
   font-size: 25px;
   text-align: center;
   margin-top: 1.85185185rem;
-  margin-top: 1.61030596rem;
   margin-bottom: 1.2037037rem;
-  margin-bottom: 1.04669887rem;
 }
 [data-dpr="2"] p {
   font-size: 50px;
@@ -19,15 +17,12 @@ p {
 }
 .touxiang {
   width: 3.16666667rem;
-  width: 2.75362319rem;
   height: 3.16666667rem;
-  height: 2.75362319rem;
   display: block;
   margin: 0 auto;
   border-radius: 1.82037037rem;
   overflow: hidden;
   margin-bottom: 0.60185185rem;
-  margin-bottom: 0.52334944rem;
 }
 .touxiang img {
   width: 100%;
@@ -37,7 +32,6 @@ h6 {
   color: #aeb3af;
   text-align: center;
   margin-bottom: 1.44444444rem;
-  margin-bottom: 1.25603865rem;
 }
 [data-dpr="2"] h6 {
   font-size: 28px;
@@ -47,7 +41,6 @@ h6 {
 }
 .name {
   line-height: 1.38888889rem;
-  line-height: 1.20772947rem;
   margin: 0 auto;
   color: #fff;
   font-size: 15px;
@@ -55,7 +48,6 @@ h6 {
   background: #a8aaa7;
   border-radius: 0.88888rem;
   padding-left: 0.59259259rem;
-  padding-left: 0.51529791rem;
 }
 [data-dpr="2"] .name {
   font-size: 30px;
@@ -72,7 +64,6 @@ h6 {
   width: 100%;
   border: none;
   line-height: 1.48148148rem;
-  line-height: 1.28824477rem;
   font-size: 15px;
   z-index: 99;
 }
