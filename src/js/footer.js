@@ -1,7 +1,7 @@
 $(function() {
 	// 底部首页跳转
 	$('.footer .index').click(function() {
-		window.location.href = "../html/index.html";
+		window.location.href = "../html/scheme.html";
 	})
 	// 底部我的跳转
 	$('.footer .my').click(function() {
