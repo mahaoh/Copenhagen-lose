@@ -7,12 +7,15 @@
   background: #fff;
   border-bottom: 1px solid #dcdcdc;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   padding-top: 0.40740741rem;
@@ -23,7 +26,7 @@
   text-align: center;
   color: #484848;
   -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+          transition: all .5s ease;
 }
 [data-dpr="2"] .header {
   font-size: 32px;
@@ -33,6 +36,7 @@
 }
 .header figure {
   -webkit-box-flex: 1;
+  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
@@ -58,8 +62,10 @@
 .main .main_dl dl {
   width: 100%;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 1.01851852rem;
 }
 .main .main_dl dl dt {
   width: 30%;
@@ -70,4 +76,21 @@
 .main .main_dl dl .info {
   line-height: 0.55555556rem;
   width: 70%;
+  padding-top: 0.55555556rem;
 }
+.main .main_dl dl .info p {
+  font-size: 15px;
+}
+[data-dpr="2"] .main .main_dl dl .info p {
+  font-size: 30px;
+}
+[data-dpr="3"] .main .main_dl dl .info p {
+  font-size: 45px;
+}
+.main .main_dl dl .info p:first-child {
+  color: #797979;
+}
+.main .main_dl dl .info p:nth-child(2) {
+  color: #9c9c9c;
+}
+/*# sourceMappingURL=add_target.css.map */

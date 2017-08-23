@@ -3,13 +3,15 @@
 @import url("footer.less");
 .main{
   .pt(154);
+  margin: 0;
   .title{
     .pt(40);
     .pb(40);
+
     h2{
       background: url("../images/index-imgs/images/border.png") no-repeat left center;
       .pl(40);
-      .fz(46);
+      .font-dpr(15px);
       .ml(35);
     }
   }
@@ -30,7 +32,7 @@
         .fa-ellipsis-h{
           width: 100%;
           height: 40%;
-          .fz(100);
+          .font-dpr(33px);
           text-align: center;
           display: inline-block;
         }
@@ -39,7 +41,7 @@
         }
         figcaption{
           text-align: center;
-          .fz(30);
+          .font-dpr(10px);
         }
       }
     }
@@ -53,7 +55,7 @@
         text-align: center;
         vertical-align: middle;
         .lh(98);
-        .fz(32);
+        .font-dpr(11px);
         color: #68a7dd;
       }
     }
@@ -83,6 +85,11 @@
       }
     }
   }
+  .swiper-pagination{
+    .swiper-pagination-bullet{
+      background: white;
+    }
+  }
 }
 .scheme{
   .pb(140);
@@ -92,7 +99,7 @@
     h2{
       background: url("../images/index-imgs/images/border.png") no-repeat left center;
       .pl(40);
-      .fz(46);
+      .font-dpr(15px);
       .ml(35);
     }
   }
