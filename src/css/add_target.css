@@ -16,10 +16,9 @@ body {
           align-items: center;
 }
 .main {
+  margin: 0 ;
   margin-top: 1.33333333rem;
-  margin-right: 0rem;
   margin-bottom: 1.48148148rem;
-  margin-left: 0rem;
 }
 .header {
   position: fixed;
@@ -39,9 +38,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 0.32407407rem;
-  padding-right: 0rem;
   padding-bottom: 0.32407407rem;
-  padding-left: 0rem;
   font-size: 22px;
   text-align: center;
   color: #484848;
