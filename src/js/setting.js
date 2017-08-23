@@ -18,4 +18,7 @@ $(function(){
 	$('.h-right').click(function(){
 		window.location.href = "set.html";
 	})
+
+	var name_data=localStorage.getItem('name');
+	$('.h-title').html(JSON.parse(name_data));
 })
