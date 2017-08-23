@@ -21,7 +21,7 @@ $('.return').click(function(){
 $('.register').click(function(){
     window.location.href="../html/login.html";
 })
-
+   var yanzheng=null;
     $('#huoqu').click(function(){
         var shouji_val=$('.shouji').val()
           var reg=/^1[34578]\d{9}$/;
