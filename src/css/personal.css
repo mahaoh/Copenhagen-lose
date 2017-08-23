@@ -172,6 +172,7 @@ body {
 .main > div:not(:last-child) .list p a img {
   width: 0.83333333rem;
   height: 0.83333333rem;
+  border-radius: 50% ;
 }
 .main > div:not(:last-child) .list p span img {
   width: 0.66666667rem;
