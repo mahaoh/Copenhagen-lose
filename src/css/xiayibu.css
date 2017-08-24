@@ -4,8 +4,12 @@ body {
 }
 .header {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: fixed;
   left: 0;
   top: 0;
@@ -48,6 +52,8 @@ body {
   font-size: 45px;
 }
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   width: 20%;
@@ -90,12 +96,8 @@ body {
   width: 76%;
   margin: 0 auto;
   margin-bottom: 0.27777778rem;
-<<<<<<< HEAD
-  box-sizing: border-box;
-=======
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   border-radius: 0.333333rem;
   border: 1px solid #cccbd0;
 }
@@ -143,11 +145,6 @@ input {
   opacity: 0;
   height: 1.85185185rem;
   padding-top: 0.46296296rem;
-<<<<<<< HEAD
-  animation-duration: 10s;
-  animation-timing-function: ease;
-  animation-delay: 5s;
-=======
   -webkit-animation-duration: 10s;
           animation-duration: 10s;
   -webkit-animation-timing-function: ease;
@@ -155,7 +152,6 @@ input {
   -webkit-animation-delay: 5s;
           animation-delay: 5s;
   -webkit-transition: all ease 2s;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   transition: all ease 2s;
 }
 [data-dpr="2"] .xinxi {
@@ -169,8 +165,6 @@ input {
   width: 65%;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-=======
 @-webkit-keyframes donghua {
   0% {
     height: 0rem;
@@ -206,7 +200,6 @@ input {
     z-index: 9;
   }
 }
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 @keyframes donghua {
   0% {
     height: 0rem;
