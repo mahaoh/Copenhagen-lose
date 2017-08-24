@@ -17,13 +17,7 @@ body {
 }
 .main {
   margin-top: 1.33333333rem;
-<<<<<<< HEAD
-  margin-right: 0rem;
   margin-bottom: 1.48148148rem;
-  margin-left: 0rem;
-=======
-  margin-bottom: 1.48148148rem;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .footer {
   position: fixed;
