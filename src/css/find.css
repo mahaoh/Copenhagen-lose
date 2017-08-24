@@ -28,7 +28,6 @@ body {
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #dcdcdc;
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +38,6 @@ body {
   font-size: 16px;
   text-align: center;
   color: #484848;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,7 +53,6 @@ body {
   text-align: center;
   color: #484848;
   -webkit-transition: all .5s ease;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   transition: all .5s ease;
 }
 [data-dpr="2"] .header {
@@ -64,16 +61,14 @@ body {
 [data-dpr="3"] .header {
   font-size: 66px;
 }
-<<<<<<< HEAD
 .header figure {
   flex: 1;
-=======
+}
 .header figure:not(:nth-child(2)) {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
   font-size: 18px;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 [data-dpr="2"] .header figure:not(:nth-child(2)) {
   font-size: 36px;
@@ -87,11 +82,10 @@ body {
           flex: 6;
 }
 .header figure:last-child i {
-<<<<<<< HEAD
+
   margin-right: 0.09259259rem;
-=======
+
   margin-right: 0.13888889rem;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .header img {
   width: 2.38888889rem;
@@ -104,7 +98,7 @@ body {
   background: #f4f4f4;
 }
 .dis {
-<<<<<<< HEAD
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,7 +108,7 @@ body {
   margin-right: 0rem;
   margin-bottom: 1.48148148rem;
   margin-left: 0rem;
-=======
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,7 +122,6 @@ body {
 .main {
   margin-top: 1.33333333rem;
   margin-bottom: 1.48148148rem;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .footer {
   position: fixed;
@@ -136,11 +129,10 @@ body {
   left: 0;
   width: 100%;
   z-index: 99;
-<<<<<<< HEAD
   display: flex;
   justify-content: space-around;
   align-items: center;
-=======
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,7 +141,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   background: #fff;
   border-top: 1px solid #dcdcdc;
   padding-top: 0.18518519rem;
@@ -188,11 +179,9 @@ body {
   background: #fff;
 }
 .main section .m-title {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,7 +191,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   margin-bottom: 0.32407407rem;
 }
 .main section .m-title div:first-child {
@@ -248,7 +236,6 @@ body {
 }
 .main .content-expert .m-details .list .list-top {
   margin-bottom: 0.41666667rem;
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -257,7 +244,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,7 +264,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .main .content-expert .m-details .list .list-top .li-left > dl dt {
   margin-right: 0.27777778rem;
@@ -323,21 +308,19 @@ body {
   font-size: 36px;
 }
 .main .content-expert .m-details .list .list-bottom {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
-=======
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .main .content-expert .m-details .list .list-bottom img {
   width: 2.22222222rem;
@@ -369,12 +352,10 @@ body {
   font-size: 33px;
 }
 .main .content-study .col dd dl {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: flex-start;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,7 +368,6 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .main .content-study .col dd dl dt {
   margin-right: 0.09259259rem;
@@ -407,12 +387,11 @@ body {
   font-size: 30px;
 }
 .main .content-dynamic .m-foods .list-group {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-=======
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,18 +403,16 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
+
 }
 .main .content-dynamic .m-foods .list-group a {
   display: block;
   width: 33.3%;
   margin-bottom: 0.23148148rem;
-<<<<<<< HEAD
   flex-wrap: wrap;
-=======
+
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   text-align: center;
   border-radius: 10px;
   overflow: hidden;
