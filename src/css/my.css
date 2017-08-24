@@ -31,15 +31,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0.40740741rem;
-  padding-right: 0rem;
-  padding-bottom: 0.40740741rem;
-  padding-left: 0rem;
-  font-size: 16px;
-=======
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -49,7 +40,6 @@ body {
   padding-top: 0.32407407rem;
   padding-bottom: 0.32407407rem;
   font-size: 22px;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   text-align: center;
   color: #484848;
   -webkit-transition: all .5s ease;
@@ -79,11 +69,7 @@ body {
           flex: 6;
 }
 .header figure:last-child i {
-<<<<<<< HEAD
-  margin-right: 0.09259259rem;
-=======
   margin-right: 0.13888889rem;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .header img {
   width: 2.38888889rem;
@@ -108,13 +94,7 @@ body {
 }
 .main {
   margin-top: 1.33333333rem;
-<<<<<<< HEAD
-  margin-right: 0rem;
   margin-bottom: 1.48148148rem;
-  margin-left: 0rem;
-=======
-  margin-bottom: 1.48148148rem;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .footer {
   position: fixed;

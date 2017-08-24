@@ -28,18 +28,6 @@ body {
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #dcdcdc;
-<<<<<<< HEAD
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0.40740741rem;
-  padding-right: 0rem;
-  padding-bottom: 0.40740741rem;
-  padding-left: 0rem;
-  font-size: 16px;
-  text-align: center;
-  color: #484848;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,7 +43,6 @@ body {
   text-align: center;
   color: #484848;
   -webkit-transition: all .5s ease;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   transition: all .5s ease;
 }
 [data-dpr="2"] .header {
@@ -64,16 +51,11 @@ body {
 [data-dpr="3"] .header {
   font-size: 66px;
 }
-<<<<<<< HEAD
-.header figure {
-  flex: 1;
-=======
 .header figure:not(:nth-child(2)) {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
   font-size: 18px;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 [data-dpr="2"] .header figure:not(:nth-child(2)) {
   font-size: 36px;
@@ -100,11 +82,6 @@ body {
   background: #f4f4f4;
 }
 .dis {
-<<<<<<< HEAD
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,7 +91,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
 }
 .main {
   margin-top: 1.33333333rem;
@@ -126,11 +102,6 @@ body {
   left: 0;
   width: 100%;
   z-index: 99;
-<<<<<<< HEAD
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,7 +110,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   background: #fff;
   border-top: 1px solid #dcdcdc;
   padding-top: 0.18518519rem;
@@ -242,17 +212,12 @@ body {
 }
 .plan .planing {
   margin-top: 0.55555556rem;
-<<<<<<< HEAD
-  display: flex;
-  justify-content: center;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
->>>>>>> 618c6e2de897ff168d1c9de48493fbb26c372a6d
   padding-top: 0.27777778rem;
   padding-bottom: 0.27777778rem;
   margin-right: 1.01851852rem;
