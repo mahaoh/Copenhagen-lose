@@ -1,68 +1,27 @@
 @import "rem";
-@import "header";
 @import "recipe";
-@import "footer";
-html,body{
-  height: 175%;
-}
-body{
-  background-image: url("../images/recipe-imgs/image/bg_red.png");
-}
-.header{
-  background-color: rgba(254,112,92,0.3);
-}
-.recipe{
-  p{
-    color: white;
-  }
-  .three{
-    color: white;
-  }
-}
-.plan{
-  //文字说明
-  .state{
-    p{
-      color:white;
-    }
-    width: 80%;
-    .lh(60);
-    .font-dpr(12px);
-    margin: auto;
-    .mt(40);
-    text-align: center;
-  }
-}
+body{background: #f44f3c;}
 .main{
-  .main_demo3{
-    figure{
-      .title{
-        color: #af1f07;
-      }
+    background-image:url(../images/recipe-imgs/image/bg_red.png);
+    section{.m-title{color: #aa1d0b;}}
+    .recipe{
+        .three{color: #fff;i{color: #fc7b53}}
     }
-  }
-  .main_demo2{
-    .title{
-      color: #af1f07;
+    .content-sift{
+        .si-list{
+            li:last-child {
+                color: #f85542;
+            }
+        }
     }
-    .main_ul{
-      li:last-child{
-        color: #e65051;
-      }
+    .content-exper{
+        .ex-exper{
+            box-shadow: 10px 10px 10px #ab3b2e, -10px 10px 10px #ab3b2e;
+        }
     }
-  }
-  .main_demo4{
-    color:white;
-    .atr1{
-      li{
-        background:url(../images/red-recipt/image/icon.png)no-repeat left center;
-      }
-    }
-  }
 }
-//底部
 .footer{
-  .active{
-    background: #cb3220;
-  }
+    .f-left{
+        background: #cb3321;
+    }
 }

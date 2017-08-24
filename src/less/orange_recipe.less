@@ -1,70 +1,38 @@
 @import "rem";
-@import "header";
 @import "recipe";
-@import "footer";
-body{
-  height: 190%;
-  background-image: url("../images/recipe-imgs/image/bg_orange.png");
-}
-.header{
-  background-color: rgba(253,207,10,0.3);
-}
-.plan{
-  //文字说明
-  .state{
-    p{
-      color:white;
-    }
-    width: 80%;
-    .lh(60);
-    .font-dpr(12px);
-    margin: auto;
-    .mt(40);
-    text-align: center;
-  }
-}
-
+body{background: #f2830f;}
 .main{
-  .main_demo2{
-    dl{
-      dd{
-        color: #c44a00 !important;
-      }
+    background-image:url(../images/recipe-imgs/image/bg_orange.png);
+    section{.m-title{color: #d84100;}}
+    .recipe{
+        .three{color: #fff;i{color: #f4880f}}
     }
-  }
-  .main_ul{
-    li:last-child{
-      color: #c44a00;
+    .content-sift{
+        .si-list{
+            li:last-child {
+                color: #e7770e;
+            }
+        }
     }
-  }
+    .content-exper{
+        .ex-exper{
+            box-shadow: 10px 10px 10px #c5740f, -10px 10px 10px #c5740f;
+        }
+    }
+    .content-intro{
+        .in-gist{
+            .ingi-box{
+                .btn{
+                    .in-btn {
+                        color: #fe9613;
+                    }
+                }
+            }
+        }
+    }
 }
-.main_demo3 {
-  figure {
-    .title {
-      color: #c44a00 !important;
-    }
-  }
-}
-.main_demo4{
-  color:white;
-  .title{
-    color: #c44a00;
-  }
-  .atr1{
-    li{
-      background:url(../images/orange_recipe/image/icon.png)no-repeat left center;
-    }
-  }
-  .btn_shopping{
-    button{
-      color: #ff9a1c;
-    }
-  }
-}
-
-//底部
 .footer{
-  .active{
-    background: #e55c00;
-  }
+    .f-left{
+        background: #e55c00;
+    }
 }

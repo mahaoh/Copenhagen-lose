@@ -3,6 +3,21 @@
  */
 $(function(){
     $('.h-left').click(function(){
-        window.location.href = '../html/scheme.html';
+        window.history.go(-1);
     })
+    var head = $('.header');
+	$(window).scroll(function() {
+		var iTop = $(window).scrollTop();
+		if(iTop >= $('.recipe>h2').height()) {
+			head.css({
+				background:"rgba(126,178,7,0.5)",
+				color:"#fff"
+			})
+		} else {
+			head.css({
+				background:"transparent",
+				color:"#fff"
+			})
+		}
+	});
 })
