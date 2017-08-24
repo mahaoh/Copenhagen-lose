@@ -14,6 +14,6 @@ $(function(){
 	var swiper2 = new Swiper('.m-share', {
         slidesPerView: 'auto',
         paginationClickable: true,
-        spaceBetween: 30
+        spaceBetween: 15
     });
 })
